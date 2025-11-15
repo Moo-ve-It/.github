@@ -1,5 +1,9 @@
 # 🐄 Moo-ve-It! — Autonomous Smart Farm Ecosystem
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea9e3f82-5586-4578-99ff-ebf4539a8f3d" width="300">
+</p>
+
 Moo-ve-It! is a fully integrated smart-farm platform that combines **autonomous drones**, **IoT cow-tracking sensors**, and a **real-time monitoring web application** to enable next-generation herd management.
 The ecosystem consists of three core components:
 
@@ -8,6 +12,12 @@ The ecosystem consists of three core components:
 3. **ESP32 Cow Tracker Firmware** — IoT firmware for real cows, sending real-time telemetry to Sentry/backend systems
 
 Together, these components demonstrate a modern, cloud-connected, autonomous livestock monitoring platform.
+
+### Try the live system:
+
+🌐 **Frontend Simulation:** [https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)
+
+🛰️ **Backend API (Live):** [https://backend-production-d9e3.up.railway.app/api/](https://backend-production-d9e3.up.railway.app/api/)...
 
 ---
 
@@ -35,6 +45,9 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 
 *Source: React/TS + Tailwind + SVG Map*
 
+### 🌍 Live Demo
+
+🔗 **[https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)**
 
 ### ✨ Highlights
 
@@ -62,6 +75,9 @@ Then open: `http://localhost:8000`.
 
 *Source: Go 1.21*
 
+### 🛰️ Live API
+
+🔗 **Base URL:** `https://backend-production-d9e3.up.railway.app/api/`
 
 ### ✨ Features
 
