@@ -9,7 +9,7 @@ The ecosystem consists of three core components:
 
 1. **Farm Monitoring App** — A real-time, browser-based farm visualizer with autonomous drone and herd simulation
 2. **Backend API Server** — A Go-based REST API providing farm telemetry, drone/robo-dog status, and cow data
-3. **ESP32 Cow Tracker Firmware** — IoT firmware for real cows, sending real-time telemetry to Sentry/backend systems
+3. **ESP32 Cow Tracker Firmware** — IoT firmware for real cows, sending real-time telemetry to Sentry.io for processing by the backend
 
 Together, these components demonstrate a modern, cloud-connected, autonomous livestock monitoring platform.
 
