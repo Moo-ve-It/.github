@@ -81,7 +81,7 @@ cp config.h.example config.h
 🔗 **[https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)**
 
 <a href="https://www.youtube.com/watch?v=qSCKYaMRkXY">
-  <img src="https://img.youtube.com/vi/qSCKYaMRkXY/maxresdefault.jpg" width="400">
+  <img src="https://img.youtube.com/vi/qSCKYaMRkXY/maxresdefault.jpg" width="600">
 </a>
 
 ### ✨ Highlights
