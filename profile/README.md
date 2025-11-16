@@ -23,19 +23,9 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 
 # 🚜 System Architecture
 
-```
- ┌────────────────────┐        ┌────────────────────┐
- │ ESP32 Cow Trackers │──JSON──▶   Backend API      │
- │  (Real Cows)       │        │   (Go REST API)    │
- └────────────────────┘        └─────────┬──────────┘
-                                         │
-                                 Telemetry/Data
-                                         │
-                          ┌──────────────▼─────────────┐
-                          │ Frontend Simulation App     │
-                          │  (React + TS, SVG Map)      │
-                          └─────────────────────────────┘
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/22006a47-8ed0-4e6d-be0a-875154a0c2cb">
+</p>
 
 ---
 
@@ -173,49 +163,6 @@ The system can be used for:
 ├── backend/          # Go REST API
 └── cow-firmware/     # ESP32 firmware
 ```
-
----
-
-# 🚀 Get Started (Organization-Level)
-
-Clone all modules:
-
-```bash
-git clone <org>/frontend
-git clone <org>/backend
-git clone <org>/cow-firmware
-```
-
-Run stack in order:
-
-1. **Launch Backend**
-
-   ```bash
-   cd backend
-   go run ./cmd/api
-   ```
-
-2. **Run Frontend**
-
-   ```bash
-   cd frontend
-   python -m http.server 8000
-   ```
-
-3. **Deploy Trackers (Optional)**
-   Flash ESP32 firmware from `cow-firmware`.
-
----
-
-# 🤝 Contributing
-
-We welcome PRs across all layers of the platform:
-
-* UX / UI improvements
-* Drone / herd behavioral algorithms
-* API extensions
-* Firmware optimizations
-* Documentation & onboarding
 
 ---
 
