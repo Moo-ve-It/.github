@@ -41,7 +41,6 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 
 *Source: Arduino / PlatformIO*
 
-
 ### ✨ Features
 
 * Smart WiFi Connection - Automatically connects to strongest available network from configured list
@@ -74,6 +73,8 @@ cp config.h.example config.h
 ---
 
 ## 2) Frontend — **Autonomous Herd Management Simulation**
+
+[![Watch the video](https://img.youtube.com/vi/qSCKYaMRkXY/maxresdefault.jpg)](https://www.youtube.com/watch?v=qSCKYaMRkXY)
 
 *Source: React/TS + Tailwind + SVG Map*
 
