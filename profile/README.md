@@ -37,77 +37,7 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 2. Frontend - https://github.com/Moo-ve-It/frontend
 3. Backend - https://github.com/Moo-ve-It/backend
 
-## 1) Frontend — **Autonomous Herd Management Simulation**
-
-*Source: React/TS + Tailwind + SVG Map*
-
-### 🌍 Live Demo
-
-🔗 **[https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)**
-
-### ✨ Highlights
-
-* Real-time drone & cattle simulation (30+ cows)
-* Click-to-command drone navigation
-* Interactive SVG farm map
-* Autonomous drone AI: patrol, return-to-base, scanning
-* Cow behavior modeling: leaders, followers, loners
-* Dashboard: battery, weather, herd analytics, geofencing
-* 100% client-side — no bundler needed (ES modules + importmap)
-
-### Local Development
-
-```bash
-python -m http.server 8000
-# or
-serve .
-```
-
-Then open: `http://localhost:8000`.
-
----
-
-## 2) Backend — **Go REST API for Smart Farm Telemetry**
-
-*Source: Go 1.21*
-
-### 🛰️ Live API
-
-🔗 **Base URL:** `https://backend-production-d9e3.up.railway.app/api/`
-
-### ✨ Features
-
-* Farm-wide monitoring (cows, drone, robo-dog)
-* Sensor-rich telemetry endpoints
-* Health & metrics endpoints
-* Structured JSON logging
-* Modular clean architecture
-* Railway deployment ready
-
-### Key API Endpoints
-
-```
-GET /api/farm/state
-GET /api/cows
-GET /api/cows/:id
-GET /api/robodog
-GET /api/drone
-GET /api/healthcheck
-GET /api/debug/vars
-```
-
-### Run Locally
-
-```bash
-go mod download
-go run ./cmd/api
-```
-
-Default port: **4000**
-
----
-
-## 3) IoT Firmware — **ESP32 Cow Tracking System**
+## 1) IoT Firmware — **ESP32 Cow Tracking System**
 
 *Source: Arduino / PlatformIO*
 
@@ -143,6 +73,76 @@ cp config.h.example config.h
 
 ---
 
+## 2) Frontend — **Autonomous Herd Management Simulation**
+
+*Source: React/TS + Tailwind + SVG Map*
+
+### 🌍 Live Demo
+
+🔗 **[https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)**
+
+### ✨ Highlights
+
+* Real-time drone & cattle simulation (30+ cows)
+* Click-to-command drone navigation
+* Interactive SVG farm map
+* Autonomous drone AI: patrol, return-to-base, scanning
+* Cow behavior modeling: leaders, followers, loners
+* Dashboard: battery, weather, herd analytics, geofencing
+* 100% client-side — no bundler needed (ES modules + importmap)
+
+### Local Development
+
+```bash
+python -m http.server 8000
+# or
+serve .
+```
+
+Then open: `http://localhost:8000`.
+
+---
+
+## 3) Backend — **Go REST API for Smart Farm Telemetry**
+
+*Source: Go 1.21*
+
+### 🛰️ Live API
+
+🔗 **Base URL:** [https://backend-production-d9e3.up.railway.app/api/](https://backend-production-d9e3.up.railway.app/api/farm/state)
+
+### ✨ Features
+
+* Farm-wide monitoring (cows, drone, robo-dog)
+* Sensor-rich telemetry endpoints
+* Health & metrics endpoints
+* Structured JSON logging
+* Modular clean architecture
+* Railway deployment ready
+
+### Key API Endpoints
+
+```
+GET /api/farm/state
+GET /api/cows
+GET /api/cows/:id
+GET /api/robodog
+GET /api/drone
+GET /api/healthcheck
+GET /api/debug/vars
+```
+
+### Run Locally
+
+```bash
+go mod download
+go run ./cmd/api
+```
+
+Default port: **4000**
+
+---
+
 # 🧠 Unified Vision
 
 Moo-ve-It! brings together robotics, IoT, and modern web technologies to prototype the future of digital agriculture:
@@ -167,9 +167,9 @@ The system can be used for:
 ```
 /moo-ve-it-org
 │
+├── cow-firmware/     # ESP32 firmware
 ├── frontend/         # React + TS simulation
-├── backend/          # Go REST API
-└── cow-firmware/     # ESP32 firmware
+└── backend/          # Go REST API
 ```
 
 ---
