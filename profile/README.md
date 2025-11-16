@@ -74,13 +74,15 @@ cp config.h.example config.h
 
 ## 2) Frontend — **Autonomous Herd Management Simulation**
 
-[![Watch the video](https://img.youtube.com/vi/qSCKYaMRkXY/maxresdefault.jpg)](https://www.youtube.com/watch?v=qSCKYaMRkXY)
-
 *Source: React/TS + Tailwind + SVG Map*
 
 ### 🌍 Live Demo
 
 🔗 **[https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)**
+
+<a href="https://www.youtube.com/watch?v=qSCKYaMRkXY">
+  <img src="https://img.youtube.com/vi/qSCKYaMRkXY/maxresdefault.jpg" width="400">
+</a>
 
 ### ✨ Highlights
 
