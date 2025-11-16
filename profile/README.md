@@ -17,7 +17,7 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 
 🌐 **Frontend Simulation:** [https://moo-ve-it.vercel.app](https://moo-ve-it.vercel.app)
 
-🛰️ **Backend API (Live):** [https://backend-production-d9e3.up.railway.app/api/](https://backend-production-d9e3.up.railway.app/api/)...
+🛰️ **Backend API (Live):** [https://backend-production-d9e3.up.railway.app/api/](https://backend-production-d9e3.up.railway.app/api/farm/state)...
 
 ---
 
@@ -30,6 +30,12 @@ Together, these components demonstrate a modern, cloud-connected, autonomous liv
 ---
 
 # 🌐 Project Components
+
+### 🗳️ Repositories
+
+1. Cow tracker - https://github.com/Moo-ve-It/Cow-Tracker
+2. Frontend - https://github.com/Moo-ve-It/frontend
+3. Backend - https://github.com/Moo-ve-It/backend
 
 ## 1) Frontend — **Autonomous Herd Management Simulation**
 
@@ -108,11 +114,13 @@ Default port: **4000**
 
 ### ✨ Features
 
-* AirTag-like positioning module integration
-* Sends telemetry to Sentry.io / backend
-* Smart WiFi auto-connect
-* Low-power + reconnection handling
-* Configurable reporting intervals
+* Smart WiFi Connection - Automatically connects to strongest available network from configured list
+* Air Tag Integration - Reads location data from air tag modules for real-time cow positioning
+* Sentry.io Telemetry - Sends structured JSON events to Sentry.io at regular intervals
+* Sensor Data Collection - Monitors battery level and optional environmental data
+* Low Power Design - Optimized for battery-powered operation on livestock
+* Network Resilience - Automatic reconnection handling for WiFi disruptions
+* Configurable Reporting - Adjustable transmission intervals
 
 ### Data Sent (Example)
 
@@ -154,7 +162,7 @@ The system can be used for:
 
 ---
 
-# 📂 Repository Structure (Suggested for Organization)
+# 📂 Repository Structure
 
 ```
 /moo-ve-it-org
